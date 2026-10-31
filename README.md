@@ -2,10 +2,10 @@
   <img src="assets/banner.png" alt="scrapers - all-in-one ESM scrapers" width="100%">
 </p>
 
-<h1 align="center">scrapers</h1>
+<h1 align="center">@xazepysk/scrapers</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/scrapers"><img src="https://img.shields.io/badge/npm-scrapers-cb3837?logo=npm&logoColor=white" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/@xazepysk/scrapers"><img src="https://img.shields.io/badge/npm-@xazepysk/scrapers-cb3837?logo=npm&logoColor=white" alt="npm"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white" alt="node >= 18">
   <img src="https://img.shields.io/badge/module-ESM-6DA55F" alt="ESM">
   <img src="https://img.shields.io/badge/API%20keys-none-success" alt="no API keys">
@@ -35,7 +35,7 @@ Plain JavaScript, zero API keys, one dependency layer (axios + cheerio).
 ## Install
 
 ```bash
-npm install scrapers
+npm install @xazepysk/scrapers
 ```
 
 Requires Node.js 18 or newer.
@@ -43,7 +43,7 @@ Requires Node.js 18 or newer.
 ## Quick start
 
 ```js
-import { Scraper } from 'scrapers';
+import { Scraper } from '@xazepysk/scrapers';
 
 const s = new Scraper();
 
@@ -56,9 +56,9 @@ await s.Stalks.github('torvalds');
 Import only one group when that is all you need:
 
 ```js
-import { tiktok, instagram, facebook } from 'scrapers/Download';
-import { youtube, web, weather } from 'scrapers/Search';
-import { github, steam, telegram } from 'scrapers/Stalks';
+import { tiktok, instagram, facebook } from '@xazepysk/scrapers/Download';
+import { youtube, web, weather } from '@xazepysk/scrapers/Search';
+import { github, steam, telegram } from '@xazepysk/scrapers/Stalks';
 ```
 
 ## API
@@ -134,7 +134,7 @@ const post = await s.Download.instagram('https://www.instagram.com/p/Deo2TSKl1b-
 Every failure is a `ScraperError` with the scraper name and the HTTP status in the message.
 
 ```js
-import { Scraper, ScraperError } from 'scrapers';
+import { Scraper, ScraperError } from '@xazepysk/scrapers';
 
 const s = new Scraper();
 
