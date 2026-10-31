@@ -1,0 +1,12 @@
+export { web } from './web.js';
+export { youtube } from './youtube.js';
+export { wikipedia } from './wikipedia.js';
+export { npm } from './npm.js';
+export { github } from './github.js';
+export { lyrics } from './lyrics.js';
+export { news } from './news.js';
+export { stackoverflow } from './stackoverflow.js';
+export { dictionary } from './dictionary.js';
+export { books } from './books.js';
+export { movies } from './movies.js';
+export { weather } from './weather.js';

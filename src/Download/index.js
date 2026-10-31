@@ -1,0 +1,10 @@
+export { tiktok } from './tiktok.js';
+export { twitter } from './twitter.js';
+export { mediafire } from './mediafire.js';
+export { reddit } from './reddit.js';
+export { pinterest } from './pinterest.js';
+export { spotify } from './spotify.js';
+export { soundcloud } from './soundcloud.js';
+export { dailymotion } from './dailymotion.js';
+export { instagram } from './instagram.js';
+export { facebook } from './facebook.js';

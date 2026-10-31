@@ -1,0 +1,44 @@
+{
+  "name": "scrapers",
+  "version": "0.0.1",
+  "description": "All-in-one free scrapers for TikTok, Twitter/X, Reddit, Instagram, Facebook, Pinterest, Spotify, SoundCloud, YouTube, GitHub, Steam, Telegram and more. Fast, lightweight",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./Search": "./src/Search/index.js",
+    "./Download": "./src/Download/index.js",
+    "./Stalks": "./src/Stalks/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "scrapers", "scraper", "aio", "all-in-one", "free-scrapers", "nodejs", "javascript", "xazepysk",
+    "tiktok-scraper", "youtube-scraper", "twitter-scraper", "x-scraper", "reddit-scraper",
+    "pinterest-scraper", "spotify-scraper", "soundcloud-scraper", "dailymotion-downloader",
+    "steam-scraper", "telegram-scraper", "gitlab-scraper", "hackernews-scraper",
+    "dictionary-api", "news-scraper", "weather-api", "books-api", "imdb-scraper",
+    "stackoverflow-scraper", "instagram-scraper", "instagram-downloader", "facebook-scraper", "facebook-video-downloader",
+    "stalk", "downloader", "search-scraper", "cheerio", "axios",
+    "web-scraping", "api-free", "no-api-key", "esm"
+  ],
+  "author": "xazepysk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xazepysk/scrapers.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2"
+  }
+}
