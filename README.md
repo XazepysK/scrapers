@@ -163,4 +163,4 @@ Scrape only public content you have the right to access. Respect each platform's
 
 ## License
 
-MIT
+This project is licensed under a modified MIT License with Non-Commercial restrictions. See the [LICENSE](LICENSE) file for full details.
